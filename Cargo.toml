@@ -1,0 +1,13 @@
+[package]
+name = "lordcli"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lordserial = { path = "../lordserial" }
+serialport="4.0.0"
+desert = "2.0.0"
+clap = "3.0.0-beta.2"
+
